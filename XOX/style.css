@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #929ba0;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: darkgreen;
+}
+
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: rgb(29, 32, 30);
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#message{
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px, 20px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    background-color: darkgreen;
+} 
+
+#restart{
+    width: 150px;
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* #restart{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    font-weight: 700;
+} */
